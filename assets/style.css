@@ -1,0 +1,168 @@
+:root {
+    --background-color: #f0f0f0;
+    --text-color: #333;
+    --border-color-darker: #acacac;
+    --border-color: #ccc;
+    --primary-color: #007bff;
+    --secondary-color: #28a745;
+    --third-color: #dc3545;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+}
+
+console.log('Game over');
+header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--text-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+p.intro {
+    margin: 20px auto;
+}
+
+canvas#game-canvas {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid var(--text-color);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#score-board {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+span.score-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+span.score-value {
+    font-size: 1.5em;
+}
+
+a {
+    color: var(--text-color);
+}
+
+center {
+    max-width: 1028px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 50px;
+}
+
+main > center {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 20px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+nav > ul > li {
+    width: 100%;
+    transition: transform 0.3s;
+    border-radius: 20px;
+}
+
+nav > ul > li:hover {
+    transform: scale(1.1);
+    background-color: var(--border-color-darker);
+}
+
+nav > ul a {
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+form > input, form > textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    font-size: 20px;
+}
+
+form > button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    min-width: 100px;
+    cursor: pointer;
+}
+

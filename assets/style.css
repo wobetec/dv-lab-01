@@ -20,12 +20,32 @@ html, body{
     font-family: Arial, sans-serif;
 }
 
-console.log('Game over');
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+}
+
 header {
     margin-bottom: 20px;
-    border-bottom: 1px solid var(--text-color);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 0 0 10px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -84,7 +104,8 @@ a {
 center {
     max-width: 1028px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 10px;
+    width: 100%;
 }
 
 img {
@@ -126,6 +147,16 @@ nav > ul > li {
     width: 100%;
     transition: transform 0.3s;
     border-radius: 20px;
+}
+
+nav > ul > li > a {
+    display: block;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+nav > ul > li > a.active {
+    background-color: var(--primary-color);
 }
 
 nav > ul > li:hover {

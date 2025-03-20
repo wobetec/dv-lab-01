@@ -5,10 +5,10 @@ let center = document.createElement('center');
 let nav = document.createElement('nav');
 
 let links = [
-    { url: '/', text: 'Home' },
-    { url: '/contact', text: 'Contact' },
+    { url: './', text: 'Home' },
+    { url: './contact', text: 'Contact' },
     { url: 'https://esdras-cavalcanti.vercel.app', text: 'Resumo' },
-    { url: '/snake', text: 'Snake' },
+    { url: './snake', text: 'Snake' },
 ]
 
 let ul = document.createElement('ul')

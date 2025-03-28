@@ -1,10 +1,9 @@
 <script>
     export let data = {};
-    import { base } from "$app/paths";
 </script>
 
 <article>
-    <a href={`${base}${data.url}`} target="_blank" rel="noopener noreferrer">
+    <a href={data.url} target="_blank" rel="noopener noreferrer">
         <div class="img">
             <img src="{data.img}" alt="img">
         </div>

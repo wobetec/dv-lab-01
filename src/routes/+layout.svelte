@@ -6,9 +6,10 @@
 <ThemeSelect/>
 <Header links={[
     { url: '/', title: 'Home' },  
+    { url: '/projects', title: 'Projects' },
     { url: '/contact', title: 'Contact' },
     { url: 'https://esdras-cavalcanti.vercel.app', title: 'Resumo' },
-    { url: '/snake', title: 'Snake' },
+    // { url: '/snake', title: 'Snake' },
 ]}/>
 
 <slot/>

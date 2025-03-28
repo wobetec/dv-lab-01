@@ -1,6 +1,6 @@
 <script>
     let localStorage = globalThis.localStorage ?? {};
-    let dataTheme = localStorage.dataTheme ?? "auto";
+    let dataTheme = localStorage.dataTheme ?? "dark";
     let root = globalThis?.document?.documentElement;
 
     $: localStorage.dataTheme = dataTheme;
@@ -11,7 +11,6 @@
 <label class="data-theme">
     Theme:
     <select bind:value={ dataTheme }>
-        <option value="light dark"> Automatic </option>
         <option value="light"> Light </option>
         <option value="dark"> Dark </option>
     </select>

@@ -1,54 +1,54 @@
 [
     {
-        "img": "$lib/images/projects/one.png",
+        "img": "/images/projects/one.png",
         "title": "Shukaku",
         "description": "One: Sleeps more than the others; the one with the big dark circles under his eyes, Gaara.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Shukaku"
     },
     {
-        "img": "$lib/images/projects/two.png",
+        "img": "/images/projects/two.png",
         "title": "Matatabi",
         "description": "Two: Burning in flames; with his cat-like voice, Yugito.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Matatabi"
     },
     {
-        "img": "$lib/images/projects/three.png",
+        "img": "/images/projects/three.png",
         "title": "Isobu",
         "description": "Three: Lets the water flow; the fourth Mizukage, Yagura.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Isobu"
     },
     {
-        "img": "$lib/images/projects/four.png",
+        "img": "/images/projects/four.png",
         "title": "Son Goku",
         "description": "Four: Burns like lava; Together for 40 years, Yonbi and Roshi.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Son_Gokuu"
     },
     {
-        "img": "$lib/images/projects/five.png",
+        "img": "/images/projects/five.png",
         "title": "Kokuou",
         "description": "Five: Always running; the intense power, Han.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Kokuou"
     },
     {
-        "img": "$lib/images/projects/six.png",
+        "img": "/images/projects/six.png",
         "title": "Saiken",
         "description": "Six: Always calm and unhurried; reserved and in a kimono, Utakata.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Saiken"
     },
     {
-        "img": "$lib/images/projects/seven.png",
+        "img": "/images/projects/seven.png",
         "title": "Choumei",
         "description": "Seven: A flying insect; the fun Kunoichi, Fuu.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Choumei"
     },
     {
-        "img": "$lib/images/projects/eight.png",
+        "img": "/images/projects/eight.png",
         "title": "Gyuuki",
         "description": "Eight: Just what we needed; with crazy rapping skills, Killer Bee.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Gyuuki"
     },
     {
-        "img": "$lib/images/projects/nine.png",
+        "img": "/images/projects/nine.png",
         "title": "Kurama",
         "description": "Nine: Is the number of the great; of Konoha, he is Uzumaki Naruto.",
         "url": "https://naruto.fandom.com/pt-br/wiki/Kurama"

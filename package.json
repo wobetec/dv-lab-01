@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"prebuild": "npx elocuent -d static,src -o static/loc.csv",
 		"dev": "vite dev",
+		"prebuild": "npx elocuent -d static,src -o static/loc.csv",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
